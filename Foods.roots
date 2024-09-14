@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StuFoods - Food for Students</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #54b7e5;
+        }
+        header {
+            background-color: #8536ec;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+        .welcome {
+            text-align: center;
+            color: white;
+            padding: 5px;
+
+            margin-bottom: 30px;
+            background-color: #333;
+        }
+        .food-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .food-item {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .food-item img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .food-item h3 {
+            margin: 15px 0;
+            font-size: 20px;
+        }
+        .food-item p {
+            color: #555;
+            font-size: 14px;
+        }
+        .order-btn {
+            background-color: #ff6600;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .order-btn:hover {
+            background-color: #e65c00;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px ;
+            margin-top: 10px;
+        }
+        footer p {
+            margin: 0;
+        }
+    
+        #id1 {
+            background-color: #ff6600;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="welcome">
+            <br>
+            <h2>FOODS</h2>
+           
+          
+        </div>
+       
+
+        <div class="food-grid">
+            <div class="food-item">
+                <img src="https://www.brit.co/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yMTM3NzExMC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTY4NTAwNTE1MH0.lpW4-Y5lzcUXJvlmYXr6GpvQsaJjF0ixlBFxZIRETvQ/image.jpg?width=980" alt="Burger" height="300" width="300">
+                <h3>BREAKFAST</h3>
+                <p>Delicious and hot</p>
+                <a href="breakfast.html" target="blank"><button class="order-btn">Order Now</button></a>
+            </div>
+            <div class="food-item">
+                <img src="https://i.pinimg.com/originals/0f/13/7d/0f137d2a243f7b63e5716ab4c10c3ee3.jpg" alt="Food" height="300" width="300">
+                <h3>LUNCH</h3>
+                <p>Fresh and hot delicious food.</p>
+                <a href="lunch.html" tabindex="blank"><button class="order-btn">Order Now</button></a>
+            </div>
+            <div class="food-item">
+                <img src="https://i.pinimg.com/originals/e1/da/d5/e1dad5315972c8a9db86fb01d69c7ecb.jpg" alt="Drinks" height="300" width="300">
+                <h3>DINNER</h3>
+                <p>Food before your Nap.</p>
+                <a href="dinner.html"target="blank"><button class="order-btn">Order Now</button></a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="id1"> <a href="webathon main file.html" target="_blank"><button>Home</button>&nbsp;<a href="webathon main file.html"target="blank"><button>Back</button></a></div>
+    <br>
+    <br>
+    <br>
+
+
+
+    <footer>
+        <br>
+
+        <p>&copy; 2024 StuFoods. All rights reserved.</p>
+
+    </footer>
+</body>
+</html>
